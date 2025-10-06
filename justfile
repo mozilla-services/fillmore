@@ -14,15 +14,15 @@ test *args: devenv
 
 # Run typechecking
 typecheck: devenv
-    uv run tox -e py39-typecheck
+    uv run tox -e py310-typecheck
 
 # Format files
 format: devenv
-    uv run tox exec -e py39-lint -- ruff format
+    uv run tox exec -e py310-lint -- ruff format
 
 # Lint files
 lint: devenv
-    uv run tox -e py39-lint
+    uv run tox -e py310-lint
 
 # Clean development and build artifacts
 clean:
