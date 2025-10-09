@@ -1,6 +1,17 @@
 History
 =======
 
+2.2.0 (October 9th, 2025)
+-------------------------
+
+* Deprecate project. There will be no further releases.
+* Drop support for Python 3.9. (#96)
+* Add support for Python 3.14. (#98)
+* Drop support for Django 5.0.
+* Overhaul documentation.
+* Switch to uv and just for maintenance. (#82)
+
+
 2.1.0 (October 30th, 2024)
 --------------------------
 
