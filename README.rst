@@ -2,6 +2,8 @@
 Fillmore
 ========
 
+**Status 2025-10-09: This project is deprecated.**
+
 The Python sentry-sdk has a before_send hook that lets you scrub Sentry events
 before they're sent. Fillmore makes it easier to set up a before_send scrubber
 and test it.
